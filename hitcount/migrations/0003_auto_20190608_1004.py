@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='hitcount',
             name='object_pk',
-            field=models.TextField(verbose_name='object ID'),
+            field=models.IntegerField(verbose_name='object ID'),
         ),
     ]
